@@ -1,0 +1,210 @@
+= Intro to Microservices Architecture
+
+% : subtitle
+%   in Ruby
+: author
+   Giovanni Sakti
+: institution
+   Starqle
+% : content-source
+%    id_ruby
+% : date
+%    2017-11-01
+: theme
+   starqle
+
+= Microservices Architecture
+
+(('tag:center'))What is Microservices Architecture?
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Sam Newman)
+
+  * Service-oriented Architecture
+  * Composed of ((*loosely-coupled*)) but ((*highly cohesive*)) elements
+  * That have ((*bounded contexts*))
+
+= Microservices Architecture (Martin Fowler)
+
+  * Suite of small services
+  * Each running its own process
+  * Communicate with lightweight mechanism
+  * Built around business capabilities
+
+= Microservices Architecture (Martin Fowler) (cont'd)
+
+  * Independently deployable by fully automated system
+  * May use different programming language
+  * Each service should have its own data storage (share nothing)
+
+= Why Microservices Architecture
+
+(('tag:center'))Why Microservices Architecture?
+
+== properties
+  : hide-title
+    true
+
+= Benefits
+
+  * Durability
+  * Encourage polyglot technologies
+  * Geography
+
+= Benefits
+
+  * Team structure (Conway's law of computing)
+  * Speed of change
+  * Targeted scaling
+
+= When Should We Use Microservices Architecture
+
+(('tag:center'))When Should We Use Microservices Architecture?
+
+== properties
+  : hide-title
+    true
+
+= When We Should
+
+  * You have complex app
+  * You have large amount of traffic
+  * You have large team with ops culture
+
+= When We ((*Shouldn't*))
+
+  * Your app complexity is still manageable with monolithic
+  * You don't need targeted scaling
+  * It is still adequate to scale vertically
+  * You have small team
+
+= Where Should We Use Microservices Architecture
+
+(('tag:center'))Where Should We Use Microservices Architecture?
+
+== properties
+  : hide-title
+    true
+
+= From Scratch
+
+(('tag:center'))Everywhere.\n
+(('sub:But you will find out that it's not easy to start as microservices'))
+
+= Existing App
+
+(('tag:center'))Split off from your existing large monolithic app
+
+= Characteristics
+
+(('tag:center'))Characteristics
+
+== properties
+  : hide-title
+    true
+
+= Componentization via Services
+
+(('tag:center'))Componentization via Services
+
+== properties
+  : hide-title
+    true
+
+= Organized Around Business Capabilities
+
+(('tag:center'))Organized Around Business Capabilities
+
+== properties
+  : hide-title
+    true
+
+= Products not Projects
+
+(('tag:center'))Products not Projects
+
+== properties
+  : hide-title
+    true
+
+= Smart Endpoints and Dumb Pipes
+
+(('tag:center'))Smart Endpoints and Dumb Pipes
+
+== properties
+  : hide-title
+    true
+
+= Decentralized Governance
+
+(('tag:center'))Decentralized Governance
+
+== properties
+  : hide-title
+    true
+
+= Decentralized Data Management
+
+(('tag:center'))Decentralized Data Management
+
+== properties
+  : hide-title
+    true
+
+= Infrastructure Automation
+
+(('tag:center'))Infrastructure Automation
+
+== properties
+  : hide-title
+    true
+
+= Design for Failure
+
+(('tag:center'))Design for Failure
+
+== properties
+  : hide-title
+    true
+
+= Evolutionary Design
+
+(('tag:center'))Evolutionary Design
+
+== properties
+  : hide-title
+    true
+
+= Characteristics
+
+  * Componentization via services
+  * Organized around business capabilities
+  * Products not projects
+  * Smart endpoints & dumb pipes
+  * Decentralized governance
+
+= Characteristics (cont'd)
+
+  * Decentralized data management
+  * Infrastructure automation
+  * Design for failure
+  * Evolutionary design
+
+= Microservices vs Monolithic
+
+(('tag:center'))Microservices vs Monolithic (Discuss!)
+
+== properties
+  : hide-title
+    true
+
+= Thanks!
+
+(('tag:center'))Thanks!
+
+== properties
+  : hide-title
+    true
