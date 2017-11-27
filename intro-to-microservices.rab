@@ -23,22 +23,110 @@
 
 = Microservices Architecture (Sam Newman)
 
-  * Service-oriented Architecture
+(('tag:center'))((*Service-oriented*)) Architecture
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Sam Newman)
+
+(('tag:center'))Composed of ((*loosely-coupled*)) but ((*highly cohesive*)) elements
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Sam Newman)
+
+(('tag:center'))That have ((*bounded contexts*))
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Sam Newman)
+
+  * ((*Service-oriented*)) Architecture
   * Composed of ((*loosely-coupled*)) but ((*highly cohesive*)) elements
   * That have ((*bounded contexts*))
 
 = Microservices Architecture (Martin Fowler)
 
-  * Suite of small services
-  * Each running its own process
-  * Communicate with lightweight mechanism
-  * Built around business capabilities
+(('tag:center'))Another Definition
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+(('tag:center'))Suite of ((*small*)) services
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+(('tag:center'))Each running its ((*own*)) process
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+(('tag:center'))Communicate with ((*lightweight*)) mechanism
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+(('tag:center'))Built around ((*business*)) capabilities
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+(('tag:center'))Independently deployable by fully ((*automated*)) system
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+(('tag:center'))May use ((*different*)) programming language
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+(('tag:center'))Each service should have its own data storage or ((*share-nothing*))
+
+== properties
+  : hide-title
+    true
+
+= Microservices Architecture (Martin Fowler)
+
+  * Suite of ((*small*)) services
+  * Each running its ((*own*)) process
+  * Communicate with ((*lightweight*)) mechanism
+  * Built around ((*business*)) capabilities
 
 = Microservices Architecture (Martin Fowler) (cont'd)
 
-  * Independently deployable by fully automated system
-  * May use different programming language
-  * Each service should have its own data storage (share nothing)
+  * Independently deployable by fully ((*automated*)) system
+  * May use ((*different*)) programming language
+  * Each service should have its own data storage or ((*share-nothing*))
 
 = Why Microservices Architecture
 
